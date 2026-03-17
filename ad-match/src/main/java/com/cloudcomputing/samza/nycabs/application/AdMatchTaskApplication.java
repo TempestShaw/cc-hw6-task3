@@ -37,7 +37,14 @@ public class AdMatchTaskApplication implements TaskApplication {
         // Define your input and output descriptor in here.
         // Reference solution:
         //  https://github.com/apache/samza-hello-samza/blob/master/src/main/java/samza/examples/wikipedia/task/application/WikipediaStatsTaskApplication.java
+        KafkaInputDescriptor<Object> eventStreamDescriptor =
+                kafkaSystemDescriptor.getInputDescriptor("events", new JsonSerde<>());
 
+        KafkaOutputDescriptor<Map<String, Object>> outputDescriptor =
+                kafkaSystemDescriptor.getOutputDescriptor("ad-stream", new JsonSerde<>());
+
+        taskApplicationDescriptor.withInputStream(eventStreamDescriptor)
+                .withOutputStream(outputDescriptor);
         // Bound you descriptor with your taskApplicationDescriptor in here.
         // Please refer to the same link.
 
