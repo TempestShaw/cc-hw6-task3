@@ -1,0 +1,7 @@
+{"blockId":45,"clientId":0,"latitude":40.6799404643263,"longitude":-73.980282552649,"type":"RIDE_REQUEST","gender_preference":"N"}
+{"userId":1,"interest":"ramen","duration":1565434,"type":"RIDER_INTEREST"}
+{"blockId":45,"clientId":1,"latitude":40.6799404643263,"longitude":-73.980282552649,"type":"RIDE_REQUEST","gender_preference":"N"}
+{"blockId":45,"clientId":2,"latitude":40.6799404643263,"longitude":-73.980282552649,"type":"RIDE_REQUEST","gender_preference":"N"}
+{"userId":3,"mood":5,"blood_sugar":4,"stress":7,"active":0,"type":"RIDER_STATUS"}
+{"blockId":45,"clientId":3,"latitude":40.6799404643263,"longitude":-73.980282552649,"type":"RIDE_REQUEST","gender_preference":"N"}
+{"blockId":45,"clientId":4,"latitude":40.6799404643263,"longitude":-73.980282552649,"type":"RIDE_REQUEST","gender_preference":"N"}
