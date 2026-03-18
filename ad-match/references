@@ -1,1 +1,23 @@
-ls
+{
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble but does not make it acceptable to copy code. Read the course and university policy statements in this regard. When working with others, limit the discussion to block diagrams and arrows. Do not look at another students' code. Read the JSON semantics and make use of JSON validator from the Internet if needed.",
+  "websites":[
+    {
+      "title":"apache samza documentation",
+      "url":"https://samza.apache.org/learn/documentation/latest/",
+      "code":"DriverMatchTask.java",
+      "description":"This website was used to understand the API of Apache Samza and how to implement the DriverMatchTask.java file. It provided detailed documentation on the classes and methods available in Samza, which helped in writing the code for the task."
+    },
+    {
+          "title":"github samza hello samza example",
+          "url":"https://github.com/apache/samza-hello-samza/blob/master/src/main/java/samza/examples/wikipedia/task/application/WikipediaFeedTaskApplication.java",
+          "code":"DriverMatchTask.java,DriverMatchTaskApplication.java",
+    },
+    {
+          "title":"KeyValueStore API documentation",
+          "url":"https://samza.apache.org/learn/documentation/latest/api/javadocs/org/apache/samza/storage/kv/KeyValueStore",
+          "code":"DriverMatchTask.java",
+    }
+  ],
+  "collaborators":[
+  ]
+}
